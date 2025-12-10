@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: lightgray;
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    background-color: blueviolet;
+    border: 2px solid black;
+    width: 600px;
+
+    height: 500px;
+    color: white;
+    gap: 10px;
+}
+
+.box {
+    width: 50%;
+    height: 80px;
+    background-color: red;
+    border: 2px solid black;
+    font-size: 2rem;
+}
+
+/* Estilo del card */
+img {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    width: 685px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.card-content {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    gap: 10px;
+    color: rgb(118, 135, 122);
+}
+
+.card-content h2 {
+    font-size: 1.3rem;
+
+}
+
+.card-content p {
+    font-size: 0.9rem;
+
+}
+
+.card-user-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-user-info img {
+    border-radius: 50%;
+}
