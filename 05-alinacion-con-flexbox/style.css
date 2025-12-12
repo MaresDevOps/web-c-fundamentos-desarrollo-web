@@ -1,0 +1,190 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+
+ /* Clon starbucks header*/
+
+ header {
+     display: flex;
+     justify-content: center;
+     background-color: rgb(253, 253, 252);
+     padding: 20px 10px;
+     border-bottom: 1px solid rgb(169, 167, 167);
+
+ }
+
+ .container {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+
+     max-width: 1300px;
+ }
+
+ .header-left {
+     display: flex;
+     align-items: center;
+     column-gap: 20px;
+ }
+
+ .logo {
+     width: 57px;
+ }
+
+ nav {
+     display: flex;
+     gap: 15px;
+ }
+
+ .header-left nav a {
+     text-transform: uppercase;
+     text-decoration: none;
+     font-weight: bold;
+     color: black;
+     gap: 60px;
+     transition-duration: .4s;
+ }
+
+ .header-left nav a:hover {
+     color: #00754a;
+
+ }
+
+
+ .header-right {
+     display: flex;
+     column-gap: 20px;
+     align-items: center;
+ }
+
+ .locacion a {
+     text-decoration: none;
+     font-weight: bold;
+     color: black;
+     gap: 60px;
+     transition-duration: .4s;
+ }
+
+ .locacion a:hover {
+     color: #00754a;
+ }
+
+ .btn-Registro {
+     padding: 10px 20px;
+     border-radius: 25px;
+     border: none;
+     background-color: black;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .btn-Login {
+     padding: 10px 20px;
+     border-radius: 25px;
+     border: 1px solid black;
+     background-color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
+     font-weight: bold;
+     cursor: pointer;
+ }
+ /* Clon starbucks parte 2 */
+ .letras{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+.layout-Starbucks{
+    display: flex;
+   justify-content: center;
+   width: 100%;
+   max-width: 1400px;
+   margin-left: 100px;
+   
+}
+
+.left{
+    display: flex;
+    width: 298.4px;
+    height: 211px;
+ column-gap: 20px;
+  align-items: center;
+ 
+}
+.center{
+    display: flex;
+ width: 298.4px;
+    height: 211px;
+  align-items: center;
+  column-gap: 20px;
+  
+}
+.right{
+    display: flex;
+     width: 298.4px;
+    height: 211px;
+    align-items: center;
+    column-gap: 20px;
+}
+.imagen1{
+    align-self: flex-end;
+}
+.imagen2{
+    align-self: flex-end;
+}
+.imagen3{
+    align-self: flex-end;
+}
+ /*practica conceptos*/
+ .layout {
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     flex-wrap: nowrap;
+     align-content: flex-start;
+     background-color: blueviolet;
+     border: 2px solid black;
+     width: 600px;
+     align-items: center;
+     height: 500px;
+     color: white;
+     gap: 10px;
+
+ }
+
+ .box {
+     display: flex;
+     /*width: 50%;*/
+     height: 80px;
+     background-color: red;
+     border: 2px solid black;
+     font-size: 2rem;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .pato {
+     align-self: auto;
+     width: 50px;
+     width: 40%;
+ }
+
+ .foca {
+     align-self: auto;
+     width: 40%;
+     flex-shrink: 4;
+ }
+
+ /* .perro {
+  align-self: auto;
+  flex-grow: 1;
+} */
+ .vaca {
+     align-self: auto;
+     width: 40%;
+ }
