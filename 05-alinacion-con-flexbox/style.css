@@ -89,15 +89,16 @@ nav {
     width: 100%;
     max-width: 1250px;
     border-radius: 15px;
-    margin: auto;
-  
+    margin: 50px auto;
+    overflow: hidden;
+
 }
 
 .banner-info,
 .banner-image {
     /*   flex-grow: 1; */
     width: 50%;
-  
+
 }
 
 .banner-info {
@@ -106,44 +107,58 @@ nav {
     color: white;
 }
 
-.banner-info a{
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 25px;
-  border: none;
-  background-color: #ffffff;
-  color: #000000;
-  font-weight: bold;
-  cursor: pointer;
-  text-decoration: none;
-  margin-top: 20px;
+.banner-info a {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
 }
+
 .banner-image {
     position: relative;
-    background-image: url('https://cdn.pixabay.com/photo/2019/09/04/20/34/field-4452538_1280.jpg');
-     background-size: cover;
+    background-image: url('https://i.pinimg.com/736x/08/c5/a5/08c5a5ce492f73ccd62e7c9fa96d66d4.jpg');
+    background-size: cover;
     background-position: center;
 
 }
-.banner-image .malteada{
-  position: absolute;
-  right: 5%;
-  bottom: 0;
-  width: 250px;
-}
-.fresa{
-  position: absolute;
-  width: 90px;
-  right: 11%;
-  top: 3%;
-  transform: rotate(28deg);
-}
-.galleta{
-    width: 120px;
+
+.banner-image .frappe {
     position: absolute;
-    bottom: 5%;
-    right: 5%;
+    right: -15%;
+    bottom: 0;
+    width: 500px;
 }
+.goku{
+       position: absolute;
+    right: 60%;
+    bottom: 0;
+    width: 200px;
+}
+.dragonball {
+    position: absolute;
+    left: 5%;
+    top: 20px;
+    width: 100px;
+}
+.colaboracion{
+     position: absolute;
+    left: 22%;
+    top: 18px;
+    width: 30px;
+}
+.starcks-bucks{
+      position: absolute;
+    left: 27%;
+    top: 10px;
+    width: 150px;
+}
+
 /* Clon starbucks parte 2 */
 .letras {
     text-align: center;
