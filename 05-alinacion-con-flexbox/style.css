@@ -134,29 +134,33 @@ nav {
     bottom: 0;
     width: 500px;
 }
-.goku{
-       position: absolute;
+
+.goku {
+    position: absolute;
     right: 60%;
     bottom: 0;
     width: 200px;
 }
+
 .dragonball {
     position: absolute;
     left: 5%;
     top: 20px;
     width: 100px;
 }
-.colaboracion{
-     position: absolute;
+
+.colaboracion {
+    position: absolute;
     left: 22%;
     top: 18px;
     width: 30px;
 }
-.starcks-bucks{
-      position: absolute;
+
+.starcks-bucks {
+    position: absolute;
     left: 27%;
     top: 10px;
-    width: 150px;
+    width: 50px;
 }
 
 /* Clon starbucks parte 2 */
@@ -173,7 +177,7 @@ nav {
     justify-content: center;
     width: 100%;
     max-width: 1400px;
-    margin-left: 100px;
+
 
 }
 
@@ -305,4 +309,149 @@ footer h3 {
 .vaca {
     align-self: auto;
     width: 40%;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .header-left {
+        justify-content: center;
+    }
+
+    .header-right {
+        justify-content: center;
+    }
+
+    .footer-container {
+
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .layout-Starbucks {
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 30px;
+    }
+
+    .imagen1,
+    .imagen2.imagen3 {
+        align-self: center;
+    }
+
+    .left,
+    .right,
+    .center {
+        height: auto;
+        width: auto;
+        padding: 0 30px;
+    }
+    .banner-info {
+
+        font-size: small;
+    }
+
+    .goku {
+
+        right: 63%;
+
+        width: 100px;
+    }
+
+    .banner-image .frappe {
+        right: -49%;
+
+        width: 400px;
+    }
+
+    .colaboracion {
+
+        left: 41%;
+
+    }
+
+    .starcks-bucks {
+
+        left: 55%;
+
+    }
+
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .header-left {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .header-right {
+        flex-direction: column;
+        row-gap: 15px;
+        margin-top: 15px;
+    }
+
+    .footer-container {
+
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .layout-Starbucks {
+        flex-direction: column;
+        gap: 40px;
+        margin-bottom: 30px;
+    }
+
+    .imagen1,
+    .imagen2.imagen3 {
+        align-self: center;
+    }
+
+    .left,
+    .right,
+    .center {
+        height: auto;
+        width: auto;
+        padding: 0 30px;
+    }
+
+    .banner-info {
+
+        font-size: small;
+    }
+
+    .goku {
+
+        right: 63%;
+
+        width: 100px;
+    }
+
+    .banner-image .frappe {
+        right: -49%;
+
+        width: 400px;
+    }
+
+    .colaboracion {
+
+        left: 41%;
+
+    }
+
+    .starcks-bucks {
+
+        left: 55%;
+
+    }
 }
