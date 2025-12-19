@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    font-size: 2em; /* 16px * 2 */
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: floralwhite;
+}
+@media screen and (max-width: 1200px ) {
+    .box{
+        background-color: rgb(32, 242, 49);
+        color: rgb(123, 235, 11);
+        font-family:fantasy  ;
+       align-items: center;
+    }
+}
+@media screen and (max-width: 768px ) {
+    .box{
+        background-color: aqua;
+        color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 576px ) {
+    .box{
+        background-color: rgb(112, 172, 255);
+        color: rgb(235, 89, 89);
+        font-family:fantasy  ;
+       align-items: center;
+    }
+}
+
